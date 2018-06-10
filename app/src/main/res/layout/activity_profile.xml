@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.realz.myrelaapplication.ProfileActivity"
+    android:background="#e5f3ef">
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:background="#aadfd0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:src="@drawable/phet2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:padding="50dp"
+                android:text="เพชร เฉยเฉย"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#a8cce8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="อิอิอิอิอิอิอิ"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#a8cce8"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="แอดมา \n FB : เพชร เฉยเฉย"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

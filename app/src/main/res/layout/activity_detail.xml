@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.realz.myrelaapplication.DetailActivity">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffa1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            android:background="#41bfe6"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:padding="50dp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:padding="50dp"
+                android:text="เพชร เฉยเฉย"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="105dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="เพชร เฉยเฉย"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:id="@+id/textView" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="105dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="เพชร เฉยเฉย"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="105dp"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="100dp"
+                android:layout_height="105dp"
+                android:orientation="horizontal"
+                android:src="@drawable/phet" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+                android:text="เพชร เฉยเฉย"
+                android:textAlignment="center"
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
